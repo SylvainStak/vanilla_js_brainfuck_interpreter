@@ -49,14 +49,14 @@ node BF.js code=./test-code/numWarp.b input=./test-code/input.txt
 
 ## Print the output on a file
 ```
-node BF.js code=./test-code/sierpinski-triangle.b input=./test-code/sierpinski-result.txt
+node BF.js code=./test-code/sierpinski-triangle.b output=./test-code/sierpinski-result.txt
 ```
 ![App gallery 3](https://github.com/SylvainStak/vanilla_js_brainfuck_interpreter/blob/master/readme-images/print-output-1.PNG "print output 1")
 ![App gallery 4](https://github.com/SylvainStak/vanilla_js_brainfuck_interpreter/blob/master/readme-images/print-output-2.PNG "print output 2")
 
 ## Dump memory state into a file after the code runs
 ```
-node BF.js code=./test-code/HelloWorld.b input=./test-code/memoryState.txt
+node BF.js code=./test-code/HelloWorld.b dumpMemory=./test-code/memoryState.txt
 ```
 ![App gallery 5](https://github.com/SylvainStak/vanilla_js_brainfuck_interpreter/blob/master/readme-images/dump-memory-1.PNG "dump memory 1")
 ![App gallery 6](https://github.com/SylvainStak/vanilla_js_brainfuck_interpreter/blob/master/readme-images/dump-memory-2.PNG "dump memory 2")
