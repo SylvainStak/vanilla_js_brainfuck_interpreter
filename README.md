@@ -22,6 +22,8 @@ The memory works as a wrapper, that means if you exceed the max value of a memor
 
 It is recommended to use the default tape size of 30000, although you will be able to adapt it in order to meet your requirements, which is also very useful if you think about debugging this code using the (dumpMemory) parameter.
 
+The goal is to keep this interpreter as efficient and feature-rich as possible. Pull Requests are highly appreciated!!
+
 # Parameters
 
 ```
